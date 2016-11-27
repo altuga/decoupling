@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>decoupling</groupId>
-    <artifactId>decoupling</artifactId>
+    <artifactId>com.kodcu</artifactId>
     <version>1.0</version>
 
     

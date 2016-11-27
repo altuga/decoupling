@@ -1,11 +1,10 @@
 package com.kodcu.decoupling;
 
 /**
- * Created by IntelliJ IDEA.
- * User: usta
- * Date: 03.03.2012
+ * User: Altug Altintas
+ * Date: 03.03.2016
  * Time: 15:26
- * To change this template use File | Settings | File Templates.
+ *
  */
 public class Main {
     public static void main(String[] args)
