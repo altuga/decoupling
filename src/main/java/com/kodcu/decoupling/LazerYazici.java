@@ -1,4 +1,4 @@
-package com.usta.decoupling;
+package com.kodcu.decoupling;
 
 /**
  * Created by IntelliJ IDEA.
