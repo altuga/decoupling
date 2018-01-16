@@ -9,12 +9,12 @@ package com.kodcu.decoupling;
 public class Main {
     public static void main(String[] args)
     {
-        new YazdirmaServisi(new DeskjetYazici()).y.yaz();
+        new YazdirmaServisi(new DeskjetYazici()).getYazici().yaz();
 
         /*
         LazerYazici lazerYazici=new LazerYazici();
         YazdirmaServisi yazdirmaServisi=new YazdirmaServisi(lazerYazici);
-        yazdirmaServisi.y.yaz();
+        yazdirmaServisi.yazici.yaz();
         */
 
     }

@@ -8,12 +8,18 @@ package com.kodcu.decoupling;
  */
 public class YazdirmaServisi {
 
-   // public LazerYazici y;
-      public Yazici y; // dikkat
 
-    public YazdirmaServisi(Yazici y) {
-          // y=new LazerYazici();
-         this.y=y;
+
+    // public LazerYazici yazici;
+      private Yazici yazici; // dikkat
+
+    public YazdirmaServisi(Yazici yazici) {
+          // yazici=new LazerYazici();
+         this.yazici = yazici;
+    }
+
+    public Yazici getYazici() {
+        return yazici;
     }
 
 }

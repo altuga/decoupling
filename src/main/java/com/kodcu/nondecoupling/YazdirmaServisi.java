@@ -8,10 +8,10 @@ package com.kodcu.nondecoupling;
  */
 public class YazdirmaServisi {
 
-    public com.kodcu.nondecoupling.LazerYazici y;
+    public LazerYazici lazerYazici;
 
     public YazdirmaServisi() {
-           y=new com.kodcu.nondecoupling.LazerYazici(); // YazdirmaServisi Lazer yazıcıya sıkı sıkıya bağlı
+           lazerYazici = new LazerYazici(); // YazdirmaServisi Lazer yazıcıya sıkı sıkıya bağlı
 
     }
 
