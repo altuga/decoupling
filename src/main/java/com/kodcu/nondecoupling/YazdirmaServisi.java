@@ -9,9 +9,11 @@ package com.kodcu.nondecoupling;
 public class YazdirmaServisi {
 
     public LazerYazici lazerYazici;
+    public Deskjet deskjet;
 
     public YazdirmaServisi() {
-           lazerYazici = new LazerYazici(); // YazdirmaServisi Lazer yazıcıya sıkı sıkıya bağlı
+           //lazerYazici = new LazerYazici(); // YazdirmaServisi Lazer yazıcıya sıkı sıkıya bağlı
+        deskjet = new Deskjet();
 
     }
 

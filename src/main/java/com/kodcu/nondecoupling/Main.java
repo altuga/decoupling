@@ -9,7 +9,7 @@ package com.kodcu.nondecoupling;
 public class Main {
     public static void main(String[] args)
     {
-         new YazdirmaServisi().lazerYazici.yaz();
+         new YazdirmaServisi().deskjet.yaz();
         // Yazıcı sınıfı LazerYazici sınıfına göbekten bağlı!!
         // Şirketimiz Yazıcı sınıf aracılığıyla Lazer yazıcıyı kullanıyor
         // Peki yeni bir Deskjet yazıcı aldığımızda ne olacak??
