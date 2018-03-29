@@ -7,9 +7,14 @@ package com.kodcu.decoupling;
  *
  */
 public class Main {
+
     public static void main(String[] args)
     {
         new YazdirmaServisi(new DeskjetYazici()).getYazici().yaz();
+
+        new YazdirmaServisi(new LazerYazici()).getYazici().yaz();
+
+        new YazdirmaServisi(new DotPrinter()).getYazici().yaz();
 
         /*
         LazerYazici lazerYazici=new LazerYazici();

@@ -11,7 +11,7 @@ public class YazdirmaServisi {
 
 
     // public LazerYazici yazici;
-      private Yazici yazici; // dikkat
+    private Yazici yazici; // dikkat
 
     public YazdirmaServisi(Yazici yazici) {
           // yazici=new LazerYazici();
