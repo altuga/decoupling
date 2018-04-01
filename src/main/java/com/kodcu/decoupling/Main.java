@@ -14,7 +14,7 @@ public class Main {
 
         new YazdirmaServisi(new LazerYazici()).getYazici().yaz();
 
-        new YazdirmaServisi(new DotPrinter()).getYazici().yaz();
+        //new YazdirmaServisi(new DotPrinter()).getYazici().yaz();
 
         /*
         LazerYazici lazerYazici=new LazerYazici();
